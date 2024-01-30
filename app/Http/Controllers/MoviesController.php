@@ -36,7 +36,7 @@ class MoviesController extends Controller
             'title' => 'required|min:2|max:255',
             'director' => 'required|min:2|max:255',
             'year' => 'required|integer|min:1900|max:2021',
-            'sinopsis' => 'required|min:2|max:1000',
+            'synopsis' => 'required|min:2|max:1000',
         ]);
 
         $input = $request->all();

@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title')->nullable(true);
             $table->string('director')->nullable(true);
             $table->string('year')->nullable(true);
-            $table->string('sinopsis')->nullable(true);
+            $table->string('synopsis')->nullable(true);
             $table->timestamps();
         });
     }

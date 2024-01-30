@@ -13,6 +13,6 @@ class Movies extends Model
         'title',
         'director',
         'year',
-        'sinopsis',
+        'synopsis',
     ];
 }
