@@ -35,7 +35,7 @@ class MoviesController extends Controller
         $request->validate([
             'title' => 'required|min:2|max:255',
             'director' => 'required|min:2|max:255',
-            'year' => 'required|integer|min:1900|max:2021',
+            'year' => 'required|integer|min:1900|max:2100',
             'synopsis' => 'required|min:2|max:1000',
         ]);
 
